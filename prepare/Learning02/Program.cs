@@ -6,9 +6,9 @@ class Program
     static void Main(string[] args)
     {
         // Create videos
-        Video video1 = new Video("Learning C#", "Bro Code", 600);
-        Video video2 = new Video("Design Patterns", "Ems", 720);
-        Video video3 = new Video("Introduction to OOP", "Alice sharp", 840);
+        Video video1 = new Video("Learning C#", "John Doe", 600);
+        Video video2 = new Video("Design Patterns", "Jane Smith", 720);
+        Video video3 = new Video("Introduction to OOP", "Alice Johnson", 840);
 
         // Add comments to video1
         video1.addComment(new Comment("Chris", "Great tutorial!"));
